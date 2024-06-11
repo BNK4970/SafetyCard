@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safetycard</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Rowdies:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- nav bar -->
+    <header>
+        <nav>
+            <ul class="navbar">
+                <div>
+                    <li><a href="#home">Accueil</a></li>
+                    <li><a href="#prototype">Prototype</a></li>
+                    <li><a href="#technical">Caractéristiques</a></li>
+                </div>
+                <div class="container-img">
+                    <img src="./assets/logo.png" alt="">
+                </div>
+                <div>
+                    <li><a href="#usage">Utilisation</a></li>
+                    <li><a href="#team">Équipe</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- hero -->
+    <section id="home">
+        <div class="container">
+            <div class="header">
+                <h1>Safetycard</h1>
+                <div class="line">
+                    <p></p>
+                </div>
+            </div>
+            <div class="content">
+                <div>
+                    <h2>Sauvez des Vies, <br> Protégez les Héros</h2>
+                    <p>Explorez un univers où l'innovation rencontre la sécurité absolue. <br> Plongez dans l'aventure
+                        Safetycard et découvrez comment <br> nous repoussons les limites pour protéger ceux qui servent
+                        avec courage.</p>
+                    <a href="#prototype"><button>Découvrir !</button></a>
+                </div>
+                <div>
+                    <img src="./assets/V4.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- proto -->
+    <section id="prototype">
+        <div class="container">
+            <div class="header">
+                <h1>Prototype</h1>
+                <div class="line">
+                    <p></p>
+                </div>
+            </div>
+            <div class="container-card">
+                <div class="card" id="V1">
+                    <div>
+                        <span>SAFETYCARD</span>
+                        <div>
+                            <h3>V1</h3>
+                            <button class="small" id="openModal1" onclick="handle('openModal1', 'modalV1')">Voir
+                                plus</button>
+                        </div>
+                    </div>
+                    <div class="container-img">
+                        <img src="./assets/V1.png" alt="">
+                    </div>
+                </div>
+                <div class="card" id="V2">
+                    <div>
+                        <span>SAFETYCARD</span>
+                        <div>
+                            <h3>V2</h3>
+                            <button class="small" id="openModal2" onclick="handle('openModal2', 'modalV2')">Voir
+                                plus</button>
+                        </div>
+                    </div>
+                    <div class="container-img">
+                        <img src="./assets/V2.png" alt="">
+                    </div>
+                </div>
+                <div class="card" id="V3">
+                    <div>
+                        <span>SAFETYCARD</span>
+                        <div>
+                            <h3>V3</h3>
+                            <button class="small" id="openModal3" onclick="handle('openModal3', 'modalV3')">Voir
+                                plus</button>
+                        </div>
+                    </div>
+                    <div class="container-img">
+                        <img src="./assets/V3.png" alt="">
+                    </div>
+                </div>
+                <div class="card" id="V4">
+                    <div>
+                        <span>SAFETYCARD</span>
+                        <div>
+                            <h3>V4</h3>
+                            <button class="small" id="openModal4" onclick="handleModal('openModal4', 'modalV4')">Voir
+                                plus</button>
+                        </div>
+                    </div>
+                    <div class="container-img">
+                        <img src="./assets/V4.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- caracteristiques -->
+    <section id="technical">
+        <div class="container">
+            <div class="header">
+                <h1>Caractéristiques</h1>
+                <div class="line">
+                    <p></p>
+                </div>
+            </div>
+            <p>Détails techniques du véhicule et du système de contrôle.</p>
+        </div>
+    </section>
+
+    <!-- usage -->
+    <section id="usage">
+        <div class="container">
+            <div class="header">
+                <h1>Utilisation</h1>
+                <div class="line">
+                    <p></p>
+                </div>
+            </div>
+            <p>Modes de fonctionnement et avantages du Safetycard.</p>
+        </div>
+    </section>
+
+    <!-- equipe -->
+    <section id="team">
+        <div class="container">
+            <div class="header">
+                <h1>Équipe</h1>
+                <div class="line">
+                    <p></p>
+                </div>
+            </div>
+            <div class="containerTeam">
+                <div class="card">
+                    <div class="container-img">
+                        <img src="./assets/Antoine.jpg" alt="">
+                        <div class="data">
+                            <span>CPJ</span>
+                            <div>
+                                <p>Nouza Antoine</p>
+                                <button><a href="mailto:">Me contacter</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="card">
+                    <div class="container-img">
+                        <img src="./assets/Paul.jpg" alt="">
+                        <div class="data">
+                            <span>CPE</span>
+                            <div>
+                                <p>gravezat Paul</p>
+                                <button><a href="mailto:gravezat.paul@gmail.com">Me contacter</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="card">
+                    <div class="container-img">
+                        <img src="./assets/TristanBG.jpg" alt="">
+                        <div class="data">
+                            <span>CP</span>
+                            <div>
+                                <p>Candillier Tristan</p>
+                                <button><a href="mailto:">Me contacter</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact -->
+    <section id="contact">
+        <div class="container">
+            <div class="header">
+                <h1>Contact</h1>
+                <div class="line">
+                    <p></p>
+                </div>
+            </div>
+            <p>Formulaire et informations de contact.</p>
+        </div>
+    </section>
+
+
+    <!-- modals + overlay -->
+    <div class="modal hidden" id="modalV1">
+        <div>
+            <div>
+                <span>SAFETYCARD</span>
+                <div>
+                    <h3>V1</h3>
+                    <button class="small closeBtn" onclick="handleModal('openModal1', 'modalV1')">Fermer</button>
+                </div>
+            </div>
+            <p>La première version avec le système de suspension inférieure.</p>
+        </div>
+        <div class="container-img">
+            <img src="./assets/V1.png" alt="">
+        </div>
+    </div>
+    <div class="modal hidden" id="modalV2">
+        <div>
+            <div>
+                <span>SAFETYCARD</span>
+                <div>
+                    <h3>V2</h3>
+                    <button class="small closeBtn" onclick="handleModal('openModal2', 'modalV2')">Fermer</button>
+                </div>
+            </div>
+            <p>La deuxième version qui possède le système de suspension supérieure.</p>
+        </div>
+        <div class="container-img">
+            <img src="./assets/V2.png" alt="">
+        </div>
+    </div>
+    <div class="modal hidden" id="modalV3">
+        <div>
+            <div>
+                <span>SAFETYCARD</span>
+                <div>
+                    <h3>V3</h3>
+                    <button class="small closeBtn" onclick="handleModal('openModal3', 'modalV3')">Fermer</button>
+                </div>
+            </div>
+            <p>La troisième version comporte un arbre de transmission installé à l'avant et la structure du châssis
+                supérieur a été ajouté.</p>
+        </div>
+        <div class="container-img">
+            <img src="./assets/V3.png" alt="">
+        </div>
+    </div>
+    <div class="modal hidden" id="modalV4">
+        <div>
+            <div>
+                <span>SAFETYCARD</span>
+                <div>
+                    <h3>V4</h3>
+                    <button class="small closeBtn" onclick="handleModal('openModal4', 'modalV4')">Fermer</button>
+                </div>
+            </div>
+            <p>La dernière version a pour ajout des plaques de blindage pour éviter les éclats de shrapnels et d’un
+                treuil à l’avant.</p>
+        </div>
+        <div class="container-img">
+            <img src="./assets/V4.png" alt="">
+        </div>
+    </div>
+
+    <div id="overlay"></div>
+    <script>
+        function handleModal(buttonId, modalId) {
+            const buttonElement = document.getElementById(buttonId);
+            const modalElement = document.getElementById(modalId);
+            const overlayElement = document.getElementById('overlay');
+
+            if (buttonElement && modalElement) {
+                buttonElement.addEventListener('click', function () {
+                    modalElement.classList.remove('hidden');
+                    overlayElement.style.display = 'flex';
+                });
+
+                const closeButton = modalElement.querySelector('.closeBtn');
+                if (closeButton) {
+                    closeButton.addEventListener('click', function () {
+                        modalElement.classList.add('hidden');
+                        overlayElement.style.display = 'flex';
+                        overlayElement.style.display = 'none';
+                    });
+                }
+
+                overlayElement.addEventListener('click', function () {
+                    modalElement.classList.add('hidden');
+                    overlayElement.style.display = 'none';
+                });
+            } else {
+                console.error(`Element not found: buttonId=${buttonId}, modalId=${modalId}`);
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            handleModal('openModal1', 'modalV1');
+            handleModal('openModal2', 'modalV2');
+            handleModal('openModal3', 'modalV3');
+            handleModal('openModal4', 'modalV4');
+        });
+    </script>
+</body>
+
+</html>
