@@ -347,3 +347,96 @@ p {
         }
     }
 }
+.container-cardAvis {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 30px;
+    height: fit-content;
+    .card {
+        transition: .5s;
+        height: min-content;
+        background-color: var(--background-color-card);
+        border: 2px solid #888;
+        padding: 16px;
+        border-radius: 16px;
+        gap: 10px;
+        div {
+            display: flex;
+            justify-content: space-between;
+            align-items: end;
+            #btnAvis1 {
+                padding: .75em .5em;
+                font-size: 12px;
+                border-radius: 6px;
+            }
+            #btnAvis2 {
+                padding: .75em .5em;
+                font-size: 12px;
+                border-radius: 6px;
+            }
+        }
+        p {
+            transition: .5s;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            
+        }
+        #cardAvis1 {
+            -webkit-line-clamp: 3; /* Change this number to 3 for three lines */
+            line-height: 1.5; /* Adjust this value to match your design */
+            max-height: calc(1.5em * 3);
+        }
+        #cardAvis2 {
+            -webkit-line-clamp: 3; /* Change this number to 3 for three lines */
+            line-height: 1.5; /* Adjust this value to match your design */
+            max-height: calc(1.5em * 3);
+        }
+    }
+}
+
+.container-card-tec {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+    .card {
+        padding: 10px;
+        border-radius: 16px;
+        background-color: var(--background-color-card);
+        border: 2px solid #888;
+        ul {
+            margin-left: 10px;
+            li {
+                list-style: none;
+                span {
+                    color: #73866D;
+                }
+            }
+        }
+    }
+}
+.container-card-use {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    .card {
+        padding: 10px;
+        border-radius: 16px;
+        background-color: var(--background-color-card);
+        border: 2px solid #888;
+        ul {
+            margin-left: 10px;
+            li {
+                list-style: none;
+                span {
+                    color: #73866D;
+                }
+            }
+        }
+    }
+}
