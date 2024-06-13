@@ -43,6 +43,9 @@ header {
     border-bottom: 2px solid var(--background-color-card);
 }
 footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 10px;
     p {
         text-align: center;
