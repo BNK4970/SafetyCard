@@ -42,7 +42,10 @@ header {
     background-color: transparent;
     border-bottom: 2px solid var(--background-color-card);
 }
-
+footer {
+    text-align: center;
+    padding: 10px;
+}
 .navbar {
     height: fit-content;
     list-style-type: none;
