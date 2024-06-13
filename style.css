@@ -43,9 +43,10 @@ header {
     border-bottom: 2px solid var(--background-color-card);
 }
 footer {
-    margin: 0px auto;
-    text-align: center;
     padding: 10px;
+    p {
+        text-align: center;
+    }
 }
 .navbar {
     height: fit-content;
